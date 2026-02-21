@@ -3,7 +3,6 @@ package service
 import (
 	"food-delivery-api/internal/model"
 	"food-delivery-api/pkg/config"
-	"gorm.io/gorm"
 )
 
 type RestaurantService struct{}

@@ -5,8 +5,9 @@ import (
 	"food-delivery-api/internal/middleware"
 	"food-delivery-api/internal/service"
 	"food-delivery-api/pkg/config"
-	"github.com/gin-gonic/gin"
 	"log"
+
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
@@ -43,8 +44,8 @@ func main() {
 	{
 		// Order routes
 		protected.POST("/orders", orderHandler.PlaceOrder)
-		protected.GET("/orders/:id", orderHandler.GetOrder)
 		protected.GET("/orders/history", orderHandler.GetHistory)
+		protected.GET("/orders/:id", orderHandler.GetOrder)
 
 		// Admin routes
 		admin := protected.Group("/admin")
