@@ -1,0 +1,47 @@
+/* =====================================================
+   CLEAN LIGHT MINT & SKY THEME
+   ===================================================== */
+
+/* --- THEME VARIABLES --- */
+$body-background-color: #f8fafc;            // Light background
+$section-headings-color: #0ea5e9;           // Sky blue headings
+$header-bg-color: #e0f2fe;                  // Light sky blue header
+$header-bg-color-secondary: #bae6fd;        // Soft gradient blue
+$header-heading-color: #0f172a;             // Dark header text
+$header-text-color: #334155;                // Soft gray text
+$link-color: #0284c7;                       // Blue links
+$link-hover-color: #16a34a;                 // Mint green hover
+$btn-border-color: #0ea5e9;                 // Sky border
+$btn-background-color: #ffffff;             // White button
+$btn-text-color: #0f172a;                   // Dark button text
+
+@import "{{ site.theme }}";
+
+/* =====================================================
+   EXTRA STYLE OVERRIDES
+   ===================================================== */
+
+body {
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+a {
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.page-header {
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: 500;
+}
