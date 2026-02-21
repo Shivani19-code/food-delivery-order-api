@@ -1,30 +1,96 @@
 @import "{{ site.theme }}";
 
-/* Custom Food Delivery Brand Colors */
+/* --- PREMIUM MIDNIGHT & CRIMSON THEME --- */
+
+/* Reset body and background */
+body {
+  background-color: #0c0e14;
+  color: #d1d5db;
+}
+
+/* Header: Dark Deep Red Gradient */
 .page-header {
-  background-color: #f97316;
-  background-image: linear-gradient(120deg, #ea580c, #f97316);
+  background-color: #1a0505;
+  background-image: linear-gradient(135deg, #450a0a, #7f1d1d);
   padding: 5rem 6rem;
+  border-bottom: 3px solid #dc2626;
 }
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4 {
-  color: #ea580c;
+/* Project title and description */
+.project-name {
+  color: #fef2f2;
 }
 
+.project-tagline {
+  color: #fecaca;
+  opacity: 0.9;
+}
+
+/* Buttons: Ruby Red */
 .btn {
   color: #fff;
-  border-color: rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  border: 1px solid #ef4444;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #ef4444;
+  color: #fff;
+  border-color: #dc2626;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
 }
 
-.main-content blockquote {
-  border-left: 4px solid #ea580c;
-  color: #6a737d;
+/* Main Content area */
+.main-content {
+  background-color: #0c0e14;
+  color: #d1d5db;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  color: #f87171;
+  /* Coral Red */
+  border-bottom: 1px solid #1f2937;
+  padding-bottom: 0.3rem;
 }
 
 .main-content a {
-  color: #f97316;
+  color: #ef4444;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+  color: #f87171;
+}
+
+.main-content code {
+  background-color: #1a1c23;
+  color: #fb7185;
+  border-radius: 4px;
+}
+
+.main-content pre {
+  background-color: #111827;
+  border: 1px solid #374151;
+  border-radius: 10px;
+}
+
+.main-content blockquote {
+  border-left: 4px solid #7f1d1d;
+  color: #9ca3af;
+  background-color: #111827;
+  padding: 1rem;
+  border-radius: 0 10px 10px 0;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid #1f2937;
+  padding-top: 2rem;
+  color: #6b7280;
 }
