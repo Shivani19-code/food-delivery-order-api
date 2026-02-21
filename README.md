@@ -1,4 +1,6 @@
 # Food Delivery Order API
+Project structure:
+All backend source code is inside the /backend directory.
 
 A production-ready RESTful Food Delivery Order API built with **Go (Gin)**, **GORM**, **SQLite**, and **JWT authentication**.
 
