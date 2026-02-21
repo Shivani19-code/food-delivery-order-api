@@ -1,0 +1,6 @@
+assets/** linguist-documentation
+_config.yml linguist-documentation
+README.md linguist-documentation
+docs/** linguist-documentation
+backend/docs/** linguist-documentation
+*.md linguist-documentation
