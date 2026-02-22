@@ -1,7 +1,7 @@
 # Food Delivery Order API
 Project structure:
 All backend source code is inside the /backend directory.
-📄 Docs conatains
+📄 Docs contains
 
 - Detailed design explanation is available in `backend/docs/design_doc.md`
 - AI prompts used for development are documented in `backend/docs/prompts_log.md`
